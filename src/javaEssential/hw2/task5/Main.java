@@ -1,7 +1,6 @@
 package javaEssential.hw2.task5;
 
 import java.util.Scanner;
-
 import static javaEssential.hw2.task5.MyArea.areaOfCircle;
 
 public class Main {
