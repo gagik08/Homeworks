@@ -10,11 +10,13 @@ public class Main {
         greenPrinter.print("Test Color");
         redPrinter.print("Test Color");
         bluePrinter.print("Test Color");
+
         Printer printerDownCastToRed = (RedPrinter) redPrinter;
         printerDownCastToRed.print("DownCast To Red");
         Printer printerDownCastToGreen = (GreenPrinter) greenPrinter;
         printerDownCastToGreen.print("DownCast to Green");
         Printer printerDownCastToBlue = (BluePrinter) bluePrinter;
         printerDownCastToBlue.print("DownCast to Blue");
+
     }
 }
