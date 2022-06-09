@@ -12,14 +12,17 @@ public class Main {
             case "PRO_VERSION_KEY": {
                 System.out.println("You got access to PRO version");
                 documentVersion = new ProDocumentWorker();
+                break;
             }
             case "EXPERT_VERSION_KEY": {
                 System.out.println("You got access to EXPERT version");
                 documentVersion = new ExpertDocumentWorker();
+                break;
             }
             default: {
                 System.out.println("The key you entered is not valid. You will use the version with limited functionality");
                 documentVersion = new DocumentWorker();
+                break;
             }
         }
 
