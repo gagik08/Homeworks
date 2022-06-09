@@ -4,12 +4,6 @@ import java.util.Scanner;
 
 public class DocEdit {
     public static void main(String[] args) {
-//        ExtendedDocumentWorker extendedDocumentWorker = new ExtendedDocumentWorker();
-//        ProDocumentWorker proDocumentWorker = new ProDocumentWorker();
-//        ExpertDocumentWork expertDocumentWork = new ExpertDocumentWork();
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("To use the document editor with extended functionality, enter the appropriate key PRO and/or Expert versions : ");
-//        String key = sc.nextLine();
         Scanner sc = new Scanner(System.in);
         System.out.print("To use the document editor with extended functionality, enter the appropriate key PRO and/or Expert versions : ");
         String key = sc.nextLine();
