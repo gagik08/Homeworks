@@ -34,7 +34,6 @@ public enum Animals {
     Animals(int age){
         this.age = age;
     }
-
 }
 
 
