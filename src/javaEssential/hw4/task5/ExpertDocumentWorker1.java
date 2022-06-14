@@ -1,7 +1,5 @@
 package javaEssential.hw4.task5;
 
-import javaEssential.hw3.task4.DocumentWorker;
-
 public class ExpertDocumentWorker1 implements DocumentWorker1 {
     @Override
     public void openDocument1(){
