@@ -1,4 +1,4 @@
-package additionalTasks.pizzeria;
+package additionalTasks.pizzeria.main;
 
 import additionalTasks.pizzeria.models.Pizza;
 import additionalTasks.pizzeria.models.PizzaSizeEnum;

@@ -44,7 +44,7 @@ public enum PizzaSizeEnum {
             if (PizzaSizeEnum.values()[i].getSizeInMM() >= size) foundedPizza = PizzaSizeEnum.values()[i];
             else if (PizzaSizeEnum.values()[i+1].getSizeInMM() >= size) foundedPizza = PizzaSizeEnum.values()[i+1];
             else if (PizzaSizeEnum.values()[i+2].getSizeInMM() >= size) foundedPizza = PizzaSizeEnum.values()[i+2];
-            else throw new PizzaNotFoundException();
+            else throw new PizzaNotFoundException(PizzaNotFoundException.ERROR_MESSAGE);
             return foundedPizza;
     }
 }

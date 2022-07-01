@@ -42,7 +42,7 @@ public class Pizza {
         return "\nPizza{" +
                 "pizzaName='" + pizzaName + '\'' +
                 ", price=" + price +
-                ", size=" + size +
+                ", size=" + size.getSizeName() +
                 '}' + "\n";
     }
 }
